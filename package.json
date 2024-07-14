@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  },
+  "dependencies": {
+    "chai": "^5.1.1",
+    "sinon": "^15.0.0",
+    "streamr-client": "^9.1.0",
+    "supertest": "^6.2.3"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/preset-typescript": "^7.14.5"
+  }
+}
