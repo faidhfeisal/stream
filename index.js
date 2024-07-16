@@ -1,9 +1,9 @@
 const StreamrClient = require("streamr-client")
 const express = require('express');
 const bodyParser = require('body-parser');
-const { encrypt, decrypt } = require('./encryption');
+const { encrypt, decrypt } = require('./src/encryption.js');
 require('dotenv').config();
-import ZKProof from './zkp.js';
+import ZKProof from './src/zkp.js';
 
 const zkp = new ZKProof();
 
