@@ -2,7 +2,7 @@
 require('dotenv').config();
 
 const config = {
-  PRIVATE_KEY: process.env.PRIVATE_KEY,
+  STREAMR_PRIVATE_KEY: process.env.STREAMR_PRIVATE_KEY,
   ENCRYPTION_SECRET: process.env.ENCRYPTION_SECRET
 };
 

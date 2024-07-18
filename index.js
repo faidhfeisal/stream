@@ -40,7 +40,7 @@ app.get('/health', (req, res) => {
 const serverStreamrClient = new StreamrClient({
     
     auth: {
-        privateKey: config.PRIVATE_KEY
+        privateKey: config.STREAMR_PRIVATE_KEY
     },
     environment: "polygonAmoy"
     

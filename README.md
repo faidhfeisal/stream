@@ -23,12 +23,13 @@ Create a `.env` file in the root directory and add the following:
 
 ```
 PORT=3000
-PRIVATE_KEY=<your_streamr_wallet_private_key>
+STREAMR_PRIVATE_KEY=<your_streamr_wallet_private_key>
 ENCRYPTION_SECRET=<your_encryption_secret>
 ```
 
 Replace `<your_streamr_wallet_private_key>` with the private key of the Ethereum wallet you'll use for Streamr interactions. 
 Generate a strong, random string for `<your_encryption_secret>`.
+Ensure these strings are in quotes as the streamr client requires this format
 
 ### 3. Install Dependencies
 Install the required Node.js packages:
